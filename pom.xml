@@ -7,5 +7,17 @@
   </parent>
   <groupId>cn.com.lazyhome.client</groupId>
   <artifactId>InventoryManagementSystem</artifactId>
+  <name>InventoryManagementSystem</name>
   <version>0.0.1-SNAPSHOT</version>
+    <repositories>
+        <!-- this is a remote repository hosting the netbeans api artifacts.
+         the versions of the artifacts are netbeans IDE release based, eg. RELEASE65
+         You might want to use your own repository. To create one, use the nbm:populate-repository goal.
+          -->
+        <repository>
+            <id>localnexus</id>
+            <name>repository hosting local api artifacts</name>
+            <url>http://127.0.0.1:8081/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 </project>
