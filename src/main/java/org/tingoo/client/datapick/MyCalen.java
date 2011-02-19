@@ -84,8 +84,10 @@ public class MyCalen extends JFrame {
  private void onButtonClick(final java.awt.event.ActionEvent evt) {
   if ("".equals(dateText.getText()))
    dp = new DatePicker();
-  else
+  else {
    dp = new DatePicker(stringToDate(dateText.getText()));
+   dp.setHideOnSelect(false);
+     }
   dp.addComponentListener(new Listener());
 
   final Point p = dateText.getLocationOnScreen();
