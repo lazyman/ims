@@ -12,7 +12,7 @@
 package org.tingoo.client.ims.ui;
 
 /**
- *
+ * ³öÈë¿â
  * @author rainbow
  */
 public class InStoreJPanel extends javax.swing.JPanel {

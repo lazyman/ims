@@ -12,7 +12,7 @@
 package org.tingoo.client.ims.ui;
 
 /**
- *
+ * 货物列表
  * @author rainbow
  */
 public class ProductListJPanel extends javax.swing.JPanel {
